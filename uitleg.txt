@@ -1,0 +1,39 @@
+  Gebruik deze code als volgt:
+LEES EERST DE HELE UITLEG GOED DOOR.
+
+Stap 1:
+  kopieer op je pc de stemmen uit het stemmen kanaal.
+  Plak de stemmen, met alle tekst die ertussen staat, in het stemmen.txt bestand.
+  Let op dat je wel eerst alle oude stemmen verwijdert (of eroverheen plakt).
+
+Stap 2:
+  Ga naar het main.py bestand
+  plaats de spelers die vandaag een strafstem op zichzelf hebben in de lijst met zelfstemmers.
+  Voorbeeld: zelfstemmers = ['Twan', 'Margot', 'Mechteld']
+  Let op: de rechte haken, de commas en de apostroffen zijn van belang.
+  Verwijder de mensen uit de lijst die geen strafstem zouden moeten krijgen.
+
+  Zijn er mensen die drie permanente stemmen moeten krijgen, zet ze dan in de permanetestemmen lijst.
+  Voorbeeld: permanentestemmen = ['Twan', 'Margot']
+
+  Als er een raaf in het spel is, zet dan de persoon die de veer krijgt tussen ' en ' achter ravenveer.
+
+Stap 3:
+  Run het programma door op 'run' bovenaan je scherm te klikken.
+  Als het goed is is het programma binnen een paar seconden klaar.
+  Links kun je in het 'files' tab naar het mapje 'afbeeldingen' gaan.
+  Hier vind je de afbeelding met als titel 'De stemmen van [datum]'.
+  Download de afbeelding en plaats hem in het dorpsplein.
+
+Troubleshoot
+  Als iemands naam niet herkend wordt of er is een typfout gemaakt kan je deze handmatig in stemmen.txt aanpassen
+  
+  Hetzelfde geldt voor mensen die iets typen als "!stem Twan omdat het kan".
+  Dat laatste deel kan je dan verwijderen uit het stemmen.txt bestand.
+
+  Mocht iemand vaak anders genoemd/gespeld worden, dan kan je een alias toevoegen.
+
+  Als de datum van de titel niet klopt kan je zelf een titel invullen bij titel tussen ' en '
+
+  Bij overige vragen kun je altijd Margot of Twan benaderen.
+
